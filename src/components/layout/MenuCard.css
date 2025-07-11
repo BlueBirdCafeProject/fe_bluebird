@@ -1,0 +1,31 @@
+.menu-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  transition: box-shadow 0.2s;
+}
+.menu-card:hover {
+  box-shadow: 0 4px 16px rgba(45,124,255,0.08);
+}
+.menu-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 16px;
+  background: #f0f0f0;
+}
+.menu-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.menu-info p {
+  margin: 0;
+  color: #2d7cff;
+  font-weight: 500;
+} 

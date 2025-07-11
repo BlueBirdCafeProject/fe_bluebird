@@ -1,0 +1,23 @@
+.category-tabs {
+  display: flex;
+  justify-content: space-around;
+  background: #f8f8f8;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+.tab-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  color: #888;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.tab-btn.active {
+  color: #2d7cff;
+  border-bottom: 2.5px solid #2d7cff;
+  background: #fff;
+} 

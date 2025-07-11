@@ -1,0 +1,6 @@
+.menu-list {
+  padding: 16px;
+  padding-bottom: 80px; /* 하단 주문바 공간 확보 */
+  background: #f6f8fa;
+  min-height: 60vh;
+} 
